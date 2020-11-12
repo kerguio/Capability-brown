@@ -81,7 +81,7 @@ function makeMap(geopoints) {
       position: "topleft",
       icon: "fa fa-compass",
       locateOptions: {
-        maxZoom: 30,
+        maxZoom: 18,
         watch: true,
         enableHighAccuracy: true,
         maximumAge: 10000,
